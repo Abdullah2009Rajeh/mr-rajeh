@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Files</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="content w-full">
+        <!-- Start Head -->
+        <div class="head bg-white p-15 between-flex hdr">
+          <div class="search p-relative">
+            <a href="../index.html"><strong class="landing">Rajeh</strong></a>
+          </div>
+          <div class="icons d-flex align-center">
+            <a class="align-center fs-14 c-black rad-6" href="files.html">
+              <i class="fa-regular fa-file-lines"></i>
+              <span>Files</span>
+            </a>
+            <a class="d-flex align-center fs-14 c-black rad-6" href="assignments and quizzes.html">
+              <i class="fa-solid fa-list-check"></i>
+              <span>Assignments and quizzes</span>
+            </a>
+            <a class="d-flex align-center fs-14 c-black rad-6" href="videos.html">
+              <i class="fa-solid fa-video"></i>
+              <span>Videos</span>
+            </a>
+          </div>
+        </div>
+        <!-- End Head -->
+
+        <section class="main">
+        <div>
+            <h2><span>University</span></h2>
+            <a href="#services" class="main-btn mtop20">Services</a>
+            <div class="social-icons">
+                <a href="https://wa.me/+966558928448"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="tel:+966558928448"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:PhysicsTeacher2081983@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" style="padding-right: 0;"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="contentt">
+            <div class="card">
+                <a href="files.html">
+                    <div class="icon">
+                        <i class="fa-regular fa-file-lines"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Files</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="assignments and quizzes.html">
+                    <div class="icon">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Assignments and Quizzes</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="videos.html">
+                    <div class="icon">
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+                    <div class="info">
+                        <h3>Videos</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span><a href="https://wa.me/+201555346559" target="_blank">Abdullah Rajeh</a></span></p>
+        <div class="social-icons">
+            <a href="https://wa.me/+966558928448"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="tel:+966558928448"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:PhysicsTeacher2081983@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    </div>
+
+    <script>
+      // let password = "ASAMARAg2009#";
+      // let pass = prompt("Please Enter The Password.");
+      // function password() {
+      //   if (pass !== password) {
+      //     return false;
+      //   }
+      // }
+
+// Function to check if the entered password is correct
+function checkPassword() {
+    // Set the correct password
+    const correctPassword = "YourSecret123!";
+    // Prompt the user to enter their password
+    let enteredPassword = prompt("Enter your password:");
+    // Validate the entered password
+    if (enteredPassword !== correctPassword) {
+        alert("Incorrect password. Please try again.");
+        checkPassword();
+    }
+}
+checkPassword();
+
+
+    </script>
+  </body>
+</html>
